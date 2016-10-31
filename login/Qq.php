@@ -3,7 +3,7 @@
  * @copyright: xxxxxxxxxxxx @www.xxxxxx.com
  * @description: QQ第三方登录 
  * @file: Qq.php
- * @author: xxxxxx
+ * @author: xiongjianbang
  * @charset: UTF-8
  * @time: 2016-8-30  下午3:01:42
  * @version 1.0
@@ -21,7 +21,7 @@ class Qq extends xxxxxxController {
 	
 	/**
 	* @name:  login
-	* @创建者： xxxxxx
+	* @创建者： xiongjianbang
 	* @作　用： QQ登录动作
 	* @create:  2016-8-30 下午3:02:12
 	*/
@@ -34,7 +34,7 @@ class Qq extends xxxxxxController {
 	
 	/**
 	* @name: bind
-	* @创建者： xxxxxx
+	* @创建者： xiongjianbang
 	* @作　用： bind
 	* @create:  2016-9-14 上午10:21:36
 	*/
@@ -51,8 +51,8 @@ class Qq extends xxxxxxController {
 	
 	/**
 	* @name: callback 
-	* @创建者： xxxxxx
-	* @作　用： 回调地址
+	* @创建者： xiongjianbang
+	* @作　用： 回调测试地址
 	* @create:  2016-8-30 下午3:02:25
 	*/
 	public function callback_1(){
@@ -66,7 +66,7 @@ class Qq extends xxxxxxController {
 
 	/**
 	* @name: callback 
-	* @创建者： xxxxxx
+	* @创建者： xiongjianbang
 	* @作　用： 回调方法 
 	* @create:  2016-9-14 下午1:17:45
 	*/
@@ -80,7 +80,6 @@ class Qq extends xxxxxxController {
 		if(!empty($open_id) && !empty($arr_user_info)){
 			$nickname = isset($arr_user_info['nickname'])?$arr_user_info['nickname']:'';
 			$headimgurl = isset($arr_user_info['figureurl_qq_2'])?$arr_user_info['figureurl_qq_2']:'';
-			
 			$data = array(
 					'unionid'=> $open_id,
 					'type'=>'qq',
@@ -88,7 +87,6 @@ class Qq extends xxxxxxController {
 					'headimgurl'=> $headimgurl
 			);
 			$this->login($data);
-			
 		}
 		header('location:/account');
 	}

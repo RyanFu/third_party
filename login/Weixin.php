@@ -3,7 +3,7 @@
  * @copyright: xxxxxxxxxxxx @www.xxxxxx.com
  * @description:微信登录接口
  * @file: Weixin.php
- * @author: xxxxxx
+ * @author: xiongjianbang
  * @charset: UTF-8
  * @time: 2016-7-18  下午19:09:12
  * @version 1.0
@@ -34,7 +34,7 @@ class Weixin extends xxxxxxController {
 	
 	/**
 	* @name:  登录首页 
-	* @创建者： xxxxxx
+	* @创建者： xiongjianbang
 	* @作　用： 登录首页
 	* @create:  2016-7-19 上午11:17:34
 	*/
@@ -53,7 +53,7 @@ class Weixin extends xxxxxxController {
 	
 	/**
 	* @name: bind 
-	* @创建者： xxxxxx
+	* @创建者： xiongjianbang
 	* @作　用： 绑定登录
 	* @create:  2016-9-9 上午9:30:46
 	*/
@@ -71,7 +71,7 @@ class Weixin extends xxxxxxController {
 	
 	/**
 	* @name: pc
-	* @创建者： xxxxxx
+	* @创建者： xiongjianbang
 	* @作　用： PC登录页面
 	* @create:  2016-7-18 下午7:29:39
 	*/
@@ -93,7 +93,7 @@ class Weixin extends xxxxxxController {
 	
 	/**
 	* @name:  pop
-	* @创建者： xxxxxx
+	* @创建者： xiongjianbang
 	* @作　用： 登录弹框
 	* @create:  2016-7-18 下午7:29:11
 	*/
@@ -116,7 +116,7 @@ class Weixin extends xxxxxxController {
 	
 	/**
 	* @name:  open_oauth
-	* @创建者： xxxxxx
+	* @创建者： xiongjianbang
 	* @作　用： 登录验证
 	* @create:  2016-7-18 下午7:29:24
 	*/
@@ -187,7 +187,7 @@ class Weixin extends xxxxxxController {
 	
 	/**
 	 * @name: wx
-	 * @创建者： xxxxxx
+	 * @创建者： xiongjianbang
 	 * @return： 微信手机端登录
 	 * @create:  2016-7-18 下午8:02:04
 	 */
@@ -208,7 +208,7 @@ class Weixin extends xxxxxxController {
 	
 	/**
 	* @name: out 
-	* @创建者： xxxxxx
+	* @创建者： xiongjianbang
 	* @作　用： 注销
 	* @create:  2016-8-13 上午9:40:09
 	*/
@@ -220,7 +220,7 @@ class Weixin extends xxxxxxController {
 	
 	/**
 	 * @name: pay_oauth
-	 * @创建者： xxxxxx
+	 * @创建者： xiongjianbang
 	 * @作　用： 获取openid
 	 * @create:  2016-9-22 上午11:30:39
 	 */
