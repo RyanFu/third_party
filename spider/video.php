@@ -1,9 +1,8 @@
 <?php
 /**
- * @copyright: @快游戏广州 2015
  * @description: 视频管理控制器
  * @file: video.php
- * @author: chengdongcai
+ * @author: xiongjianbang
  * @charset: UTF-8
  * @time: 2015-04-28  10:19
  * @version 1.0
@@ -74,7 +73,7 @@ class Video extends MZW_Controller {
 	/**
 	 * @name:video_file_upload
 	 * @description: 视频采集内容上传的页面
-	 * @author: chengdongcai
+	 * @author: xiongjianbang
 	 * @create: 2015-04-28 11:14:43
 	 **/
 	public function video_file_upload(){
@@ -110,7 +109,7 @@ class Video extends MZW_Controller {
 	/**
 	 * @name:video_file_list
 	 * @description: 视频采集内容上传列表页面
-	 * @author: chengdongcai
+	 * @author: xiongjianbang
 	 * @create: 2015-04-28 11:14:43
 	 **/
 	public function video_file_list(){
@@ -132,7 +131,7 @@ class Video extends MZW_Controller {
 	 * @description: 视频资料导入列表数据获取
 	 * @param: NULL
 	 * @return: NULL
-	 * @author: chengdongcai
+	 * @author: xiongjianbang
 	 * @create: 2015-02-28  11:47
 	 **/
 	public function ajax_get_video_file_data() {
@@ -171,7 +170,7 @@ class Video extends MZW_Controller {
 	 * @description: 视频资料导入添加编辑显示
 	 * @param: 无
 	 * @return: 无
-	 * @author: chengdongcai
+	 * @author: xiongjianbang
 	 * @create: 2015-04-28 14:42:50
 	 **/
 	public function video_file_update(){
@@ -197,7 +196,7 @@ class Video extends MZW_Controller {
 	 * @description: 视频资料添加编辑保存
 	 * @param:
 	 * @return: json
-	 * @author: chengdongcai
+	 * @author: xiongjianbang
 	 * @create: 2015-04-28 13:44:50
 	 **/
 	public function video_file_save(){
@@ -469,7 +468,7 @@ class Video extends MZW_Controller {
 	 * @param:$type 默认等于 1人物
 	 * @param:$game_id 默认等于 0
 	 * @return: TRUE/FALSE
-	 * @author: chengdongcai
+	 * @author: xiongjianbang
 	 * @create: 2015-04-28 15:33:50
 	 **/
 	private function save_info_1($data,$type=1,$game_id=0){
@@ -709,7 +708,7 @@ class Video extends MZW_Controller {
 	 * );
 	 * @param:$game_id 默认等于 0
 	 * @return: TRUE/FALSE
-	 * @author: chengdongcai
+	 * @author: xiongjianbang
 	 * @create: 2015-04-28  18:47
 	 **/
 	private function save_info_2($data,$type=2,$game_id=0){
@@ -881,7 +880,7 @@ class Video extends MZW_Controller {
 	  
 	 * @param:$game_id 默认等于 0
 	 * @return: TRUE/FASL
-	 * @author: chengdongcai
+	 * @author: xiongjianbang
 	 * @create: 2015-04-29 09:42:50
 	 **/
 	private function save_info_3($data,$type=3,$game_id=0){
@@ -1077,7 +1076,7 @@ class Video extends MZW_Controller {
 	  );	
 	* @param:$game_id 默认等于 0
 	* @return: TRUE/FASL
-	* @author: chengdongcai
+	* @author: xiongjianbang
 	* @create: 2015-04-29 10:36:50
 	**/
 	private function save_info_4($data,$type=4,$game_id=0){
@@ -1277,7 +1276,7 @@ class Video extends MZW_Controller {
 	 );
 	 * @param:$game_id 默认等于 0
 	 * @return: TRUE/FASL
-	 * @author: chengdongcai
+	 * @author: xiongjianbang
 	 * @create: 2015-05-15 10:36:50
 	 **/
 	private function save_info_5($data,$type=5,$game_id=0){
@@ -1449,7 +1448,7 @@ class Video extends MZW_Controller {
     );
 	 * @param:$game_id 默认等于 0
 	 * @return: TRUE/FASL
-	 * @author: chengdongcai
+	 * @author: xiongjianbang
 	 * @create: 2015-05-20 10:36:50
 	 **/
 	private function save_info_6($data,$type=6,$game_id=0){
