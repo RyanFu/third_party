@@ -1,6 +1,8 @@
 <?php
 /**
 微信支付回调的方法
+在扫码模式二测试通过
+参考文档：https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=9_7
 **/
 
      public function wx_notify(){
